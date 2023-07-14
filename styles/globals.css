@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+    background-image:url("https://www.bing.com/th/id/OGC.36e4d0b856694fc471344b644a1dd6e4?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fxT4uQF7h39mlsF5czK%2fgiphy.gif&ehk=0eGVC1%2byAWYqzw5mInQUEB5i3LDHJnSQQoWQXSwWeok%3d")
+} */
+
+
+html{
+    background-color: black;
+}
