@@ -23,11 +23,14 @@ const Allpost = () => {
 
         fetchBlogPosts();
     }, []);
+
+    const limitedBlogPosts = blogPosts.slice(0, 3);
+
   return (
     <div>
       <h1 className='text-white font-mono pt-8 hover:underline text-center text-4xl text-mono'>Featured Articles</h1>
             <div className="grid gap-16 mx-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12">
-                {blogPosts.map((blogPost) => (
+                {limitedBlogPosts.map((blogPost) => (
                     <motion.div
 
                         initial={{ opacity: 0, scale: 0.9 }}
